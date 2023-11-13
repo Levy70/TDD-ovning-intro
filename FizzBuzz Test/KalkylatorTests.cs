@@ -12,6 +12,7 @@ namespace FizzBuzz_Test
         [DataRow(3, "Fizz")]
         [DataRow(5, "Buzz")]
         [DataRow(15, "FizzBuzz")]
+        [DataRow(2, "2")]
         public void När_FizzBuzzKalkyl_EjImplementerad_Then_ShouldThrow_NotImplementedException(int number, string expectedResult)
         {
             // Arrange
